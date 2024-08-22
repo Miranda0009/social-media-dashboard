@@ -1,0 +1,147 @@
+.all_desc {
+    justify-content: left;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+#bdm {
+    margin-left: auto;
+    width: auto;
+}
+
+.all_midia {
+
+    flex-direction: column;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F3FA;
+    align-items: center;
+    height: 225px;
+    width: 250px;
+}
+
+
+
+.all_gain {
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+#midia h1 {
+    color: #252831;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+#midia h4 {
+    color: #6A6D76;
+    margin-top: 0;
+
+}
+
+.down {
+    color: hsl(356, 69%, 56%);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.up {
+    color: hsl(163, 72%, 41%);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#midia2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    z-index: -1; 
+}
+
+#Desc_midia2 {
+    flex-direction: column;
+    background-color: hsl(225, 100%, 98%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    margin-left: 12%;
+    margin-right: 5%;
+}
+
+#midia {
+    margin-left: 11.5%;
+    margin-right: 5%;
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.X_midia h4 {
+    color: #6A6D76;
+
+
+}
+
+.yt_gain {
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.all_p {
+    color: #7A7D8C;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#border_face {
+    height: 2%;
+    width: 100%;
+    background-color: hsl(208, 92%, 53%);
+    border-radius: 5px;
+}
+
+#border_twitter {
+    height: 2%;
+    width: 100%;
+    background-color: hsl(203, 89%, 53%);
+    border-radius: 5px;
+}
+
+#border_insta {
+    height: 2%;
+    width: 100%;
+    background: linear-gradient(to right,
+            #833ab4, #fd1d1d, #fcb045);
+    border-radius: 5px;
+}
+
+#border_yt {
+    height: 2%;
+    width: 100%;
+    background-color: hsl(348, 97%, 39%);
+    border-radius: 5px;
+}
